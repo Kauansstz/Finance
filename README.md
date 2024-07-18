@@ -1,0 +1,3 @@
+<h1>Financeiro</h1>
+
+<h2>O projeto desenvolvido em Django integra-se ao Tableau e tem como objetivo principal fornecer uma análise detalhada das finanças de uma empresa. Ele permite a visualização das margens de lucro, das margens de vendas e do monitoramento das despesas. Com esta integração, é possível acompanhar de forma eficiente e precisa os percentuais de lucro e vendas, bem como as despesas, proporcionando uma visão abrangente da saúde financeira da empresa.</h2>
