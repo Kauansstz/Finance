@@ -1,0 +1,28 @@
+<form action="{% url "dashboard"%}" method="POST">{% csrf_token %}
+    <nav class="view_nav">
+        <div class="expand-button">
+            <i class="bi bi-grid-fill master_icon"></i>
+        </div>
+        <ul>
+            <li class="menu-holerite">
+                <a href="{% url ''%}">
+                    <span class="icon"><i class="bi bi-cash-coin"></i></span>
+                    <span class="txt-link">Capital</span>
+                </a>
+            </li>
+            <li class="menu-holerite">
+                <a href="{% url 'despesas'%}">
+                    <span class="icon"><i class="bi bi-box-seam-fill"></i></span>
+                    <span class="txt-link">Despesas</span>
+                </a>
+            </li>
+            <li class="menu-holerite">
+                <a href="{%url ''%}">
+                    <span class="icon"><i class="bi bi-power"></i></span>
+                    <span class="txt-link">Sair</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+    
+</form>

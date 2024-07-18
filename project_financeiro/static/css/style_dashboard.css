@@ -1,0 +1,112 @@
+:root {
+    --color-primary: #269fe6;
+    --color-primary-hover: #2086c2;
+    --color-primary-dark: #13141f;
+    --color-primary-dark-hover: #212336;
+    --color-primary-light: #d4ecfa;
+    --color-primary-light-hover: #bdd8e7;
+  
+    --color-white: #fff;
+    --color-black: #000;
+    --color-blue: #0000FF;
+    --color-Violet: #ee82ee;
+    --color-salmon:#ef6e6e ; 
+  
+    --color-dark-text: #444;
+    --color-info-light: #cce5ff;
+    --color-debug-light: #cce5ff;
+    --color-success-light: #d4edda;
+    --color-alert-light: #fff3cd;
+    --color-warning-light: #fff3cd;
+    --color-error-light: #f8d7da;
+  
+    --color-info-dark: #4d86c4;
+    --color-debug-dark: #4d86c4;
+    --color-success-dark: #4a9c5d;
+    --color-alert-dark: #927f40;
+    --color-warning-dark: #927f40;
+    --color-error-dark: #da525d;
+  
+    --color-gray-0: #f9f9f9;
+    --color-gray-1: #e0e0e0;
+    --color-gray-2: #c7c7c7;
+    --color-gray-3: #aeaeae;
+    --color-gray-4: #959595;
+    --color-gray-5: #7d7d7d;
+    --color-gray-6: #646464;
+    --color-gray-7: #4b4b4b;
+    --color-gray-8: #323232;
+    --color-gray-9: #191919;
+  
+    --font-primary: sans-serif;
+    --font-headings: 'Roboto Slab', serif;
+  
+    --spacing-gutter-medium: 3rem;
+    --spacing-gutter-large: 4rem;
+}
+li{
+    color: var(--color-black);
+}
+.view_nav a{
+    display: flex;
+    color: var(--color-white);
+    text-decoration: none;
+    width: 20rem;
+    font-size: 25px;
+    padding: 30px 4%;
+    margin-bottom: 20px;
+
+}
+nav.view_nav{
+    width: 4rem;
+    height: 21rem;
+    background-color:black	;
+    padding:  40px 0 40px 1%;
+    border-radius: 4rem;
+    position:absolute;
+    margin-top: 10rem;
+    margin-left: -10px;
+    overflow: hidden;
+    transition: 1s;
+}
+nav.view_nav:hover {     
+    width: 175px;
+ }
+ .txt-link{
+    margin-left: 30px;
+    font: var(--color-white);
+}
+
+.menu-holerite:hover{
+    background: var(--color-gray-8);
+    transition: 2s;
+    width: 60rem;
+    margin-left: -55px;
+}
+.icon{
+    margin-left: -30px;
+}
+.master_icon{
+    margin-left: -10px;
+}
+
+.expand-button{
+    width: 100px;
+    padding-left: 10px;
+    color: var(--color-white);
+    font-size: 24px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.exemple{
+    width: 100px; 
+    margin: 20rem  ;
+
+}
+.dashboard{
+    
+    margin-left: 12rem;
+    width: 1rem;
+    height: 1rem;
+}
