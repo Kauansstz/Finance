@@ -1,25 +1,27 @@
 <form action="{% url "dashboard"%}" method="POST">{% csrf_token %}
     <nav class="view_nav">
-        <div class="expand-button">
-            <i class="bi bi-grid-fill master_icon"></i>
+        <div class="expand-button" id= 'maindiv'>
+            <button onclick=expand() id= 'expand'> 
+                <i class="bi bi-grid-fill master_icon"></i>
+            </button>
         </div>
         <ul>
-            <li class="menu-holerite">
-                <a href="{% url ''%}">
+            <li class="menu">
+                <a href="{% url 'dashboard'%}">
                     <span class="icon"><i class="bi bi-cash-coin"></i></span>
                     <span class="txt-link">Capital</span>
                 </a>
             </li>
-            <li class="menu-holerite">
+            <li class="menu">
                 <a href="{% url 'despesas'%}">
                     <span class="icon"><i class="bi bi-box-seam-fill"></i></span>
                     <span class="txt-link">Despesas</span>
                 </a>
             </li>
-            <li class="menu-holerite">
-                <a href="{%url ''%}">
-                    <span class="icon"><i class="bi bi-power"></i></span>
-                    <span class="txt-link">Sair</span>
+            <li class="menu">
+                <a href="{%url 'local'%}">
+                    <span class="icon"><i class="bi bi-geo-alt-fill"></i></span>
+                    <span class="txt-link">Local</span>
                 </a>
             </li>
         </ul>

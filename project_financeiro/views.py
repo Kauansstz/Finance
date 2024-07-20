@@ -7,3 +7,6 @@ def dashboard(request):
 
 def dashboard_despesas(request):
     return render(request, "pages/panel_despesas.html")
+
+def dashboard_local(request):
+    return render(request, "pages/panel_local.html")

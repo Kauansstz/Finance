@@ -47,6 +47,8 @@
 li{
     color: var(--color-black);
 }
+
+
 .view_nav a{
     display: flex;
     color: var(--color-white);
@@ -69,15 +71,16 @@ nav.view_nav{
     overflow: hidden;
     transition: 1s;
 }
-nav.view_nav:hover {     
-    width: 175px;
+#expand {     
+    width: 50px;
  }
  .txt-link{
     margin-left: 30px;
     font: var(--color-white);
+    font-family: var(--font-primary);
 }
 
-.menu-holerite:hover{
+.menu:hover{
     background: var(--color-gray-8);
     transition: 2s;
     width: 60rem;
