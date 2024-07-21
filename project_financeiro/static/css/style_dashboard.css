@@ -61,7 +61,7 @@ li{
 }
 nav.view_nav{
     width: 4rem;
-    height: 21rem;
+    height: 25rem;
     background-color:black	;
     padding:  40px 0 40px 1%;
     border-radius: 4rem;
@@ -75,7 +75,7 @@ nav.view_nav{
     width: 50px;
  }
  .txt-link{
-    margin-left: 30px;
+    
     font: var(--color-white);
     font-family: var(--font-primary);
 }
@@ -84,13 +84,22 @@ nav.view_nav{
     background: var(--color-gray-8);
     transition: 2s;
     width: 60rem;
-    margin-left: -55px;
-}
-.icon{
     margin-left: -30px;
 }
+.icon{
+    margin-left: -15px;
+}
 .master_icon{
-    margin-left: -10px;
+    margin-left: -45px;
+    
+    
+}
+.expand-button button{
+    background-color: transparent;
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-size: 24px;
 }
 
 .expand-button{
@@ -112,4 +121,38 @@ nav.view_nav{
     margin-left: 12rem;
     width: 1rem;
     height: 1rem;
+}
+
+.view_nav.expanded {
+    width: 200px; /* Largura quando expandido */
+}
+
+.view_nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    margin-top: 20px;
+}
+
+.view_nav ul li {
+    padding: 15px 20px;
+}
+
+.view_nav ul li a {
+    color: white;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+
+.view_nav ul li a .icon {
+    margin-right: 10px;
+}
+
+.view_nav ul li a .txt-link {
+    display: none; /* Texto escondido inicialmente */
+}
+
+.view_nav.expanded ul li a .txt-link {
+    display: inline; /* Mostrar texto quando expandido */
 }
