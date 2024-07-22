@@ -70,6 +70,7 @@ nav.view_nav{
     margin-left: -10px;
     overflow: hidden;
     transition: 1s;
+    z-index: 2;
 }
 #expand {     
     width: 50px;
