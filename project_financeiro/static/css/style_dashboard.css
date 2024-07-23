@@ -59,8 +59,8 @@ li{
     margin-bottom: 20px;
 
 }
-nav.view_nav{
-    width: 4rem;
+.menu-conteiner{
+    width: 3.5rem;
     height: 25rem;
     background-color:black	;
     padding:  40px 0 40px 1%;
@@ -70,13 +70,10 @@ nav.view_nav{
     margin-left: -10px;
     overflow: hidden;
     transition: 1s;
-    z-index: 2;
+    z-index: 5;
 }
-#expand {     
-    width: 50px;
- }
  .txt-link{
-    
+    margin-left: 20px;
     font: var(--color-white);
     font-family: var(--font-primary);
 }
@@ -95,22 +92,16 @@ nav.view_nav{
     
     
 }
-.expand-button button{
-    background-color: transparent;
+.expanded{
     border: none;
-    color: white;
+    background: none;
+    width: 5rem;
+    color: var(--color-white);
     cursor: pointer;
     font-size: 24px;
 }
 
-.expand-button{
-    width: 100px;
-    padding-left: 10px;
-    color: var(--color-white);
-    font-size: 24px;
-    margin-left: 10px;
-    cursor: pointer;
-}
+
 
 .exemple{
     width: 100px; 
@@ -124,9 +115,6 @@ nav.view_nav{
     height: 1rem;
 }
 
-.view_nav.expanded {
-    width: 200px; /* Largura quando expandido */
-}
 
 .view_nav ul {
     list-style-type: none;
@@ -150,10 +138,14 @@ nav.view_nav{
     margin-right: 10px;
 }
 
-.view_nav ul li a .txt-link {
-    display: none; /* Texto escondido inicialmente */
+
+
+
+
+.menu-hidden{
+   width: 10%;
 }
 
-.view_nav.expanded ul li a .txt-link {
-    display: inline; /* Mostrar texto quando expandido */
+.altered-color{
+    background-color: var(--color-gray-8);
 }

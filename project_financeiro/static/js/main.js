@@ -1,6 +1,16 @@
-const buttonShowMenu = document.querySelector('.view_nav');
+document.addEventListener('DOMContentLoaded', function() {
+    const ShowMenu = document.querySelector(".expanded");
+    const MenuConteiner = document.querySelector(".menu-conteiner");
+    const teste =  "menu-hidden";
 
-if (buttonShowMenu){
-    buttonShowMenu.addEventListener("click", alert(2))
-}
+    const Menu = () =>{
+        MenuConteiner.classList.toggle(teste);
+    };
 
+
+    if (ShowMenu){
+        ShowMenu.addEventListener('click', Menu);
+    };
+
+   
+})
